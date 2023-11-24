@@ -35,13 +35,13 @@ body {
 }
 
 .navbar {
+    z-index: 2;
     background: linear-gradient(rgba(135, 38, 183, 0), rgba(234, 191, 255, 0.534));
     backdrop-filter: blur(5px);
-    /* position: fixed !important;
+    position: fixed !important;
     top: 0%;
-    bottom: 0%;
     left: 0%;
-    right: 0%; */
+    right: 0%;
 }
 
 .nav-item a {
@@ -314,7 +314,7 @@ body {
     background: linear-gradient(rgba(23, 32, 56, 1), rgba(162, 62, 140, 1));
     z-index: -1;
     width: 100%;
-    height: 4000px;
+    height: 4300px;
     position: absolute;
     top: 0%;
     bottom: auto;
