@@ -1,13 +1,32 @@
 /* PC */
 
 @media (min-width: 1024px) {
-    
+   
 }
 
 /* Tablet & Mobile */
 @media (max-width: 1023px) {
-    .about a {
-        font-size: 14px;
+    .nav-item {
+        margin: 0 50px;
+    }
+    .nav-item a {
+        font-size: 20px;
+    }
+    .bgr {
+        height: 3884px;
+    }
+    .content-bgr {
+        width: 900px;
+        height: 2600px;
+    }
+    .chap1 img {
+        max-width: 100%;
+    }
+    .chap4 img {
+        max-width: 100%;
+    }
+    .use-case {
+        margin: auto;
     }
 }
 
