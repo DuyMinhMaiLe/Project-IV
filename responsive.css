@@ -55,5 +55,55 @@
 /* Mobile */
 
 @media (max-width: 800px) {
-    
+    .bgr {
+        height: 3666px;
+    }
+    .content-bgr {
+        width: 600px;
+    }
+    .content-plot p {
+        font-size: 14px;
+        line-height: 120%;
+    }
+    .chap2 p {
+        font-size: 18px;
+        line-height: 120%;
+    } 
+    .gameplay {
+        display: block;
+    }
+    .prop img {
+        max-width: 90px;
+    }
+    .conti {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .map {
+        width: 90%;
+        border-radius: 20px;
+        margin-top: 20px;
+    }
+    .use-case {
+        margin: auto;
+        height: auto;
+        margin: 5px;
+    }
+    .img-onboarding img {
+        max-width: 150px;
+    }
+    .nhanvat {
+        align-items: center;
+    }
+    .user-boar p {
+        font-size: 12px;
+    }
+    .user-boar button {
+        width: 110px;
+        height: 30px;
+        font-size: 14px;
+    }
+    .user-boar h2 {
+        font-size: 20px;
+    }
 }
