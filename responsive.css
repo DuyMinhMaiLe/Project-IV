@@ -74,7 +74,7 @@
     }
     .content-bgr {
         width: 370px;
-        height: 1825px;
+        height: 1965px;
     }
     #content {
         margin-top: 10%;
@@ -123,5 +123,8 @@
     }
     .content-boar {
         margin-top: 0px;
+    }
+    .plot {
+        display: block;
     }
 }
