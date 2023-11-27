@@ -21,16 +21,22 @@ body {
     align-items: center;
 }
 
-.p-3 h3 {
-    font-size: 24px;
+.p-3 {
+    text-align: justify;
     font-weight: 600;
 }
 
 /* END */
 
 /* NAVBAR */
+.logo-nav {
+    width: 140px;
+}
 .nav-item {
-    margin: 0 100px;
+    margin: 0 50px;
+}
+.navbar-nav {
+    align-items: center;
 }
 
 .navbar {
@@ -44,22 +50,31 @@ body {
 }
 
 .nav-item a {
-    color: #000;
-    font-size: 24px;
+    color: white;
+    font-size:18px;
     font-weight: 600;
 }
 
 #navbarNav {
     justify-content: center;
 }
+.down {
+    background-color: #FDA656 !important;
+    color: #fff !important;
+}
 /* END */
 
 /* INTRODUC */
 .col p {
+    font-weight: lighter;
     color: #fff;
     font-size: 20px;
     padding: 20px 0px;
-    text-align: center;
+}
+.p-3 h2 {
+    font-weight: bold;
+    color: #fff;
+    font-size: 57px;
 }
 
 .introduc {
