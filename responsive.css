@@ -74,6 +74,7 @@
     }
     .content-bgr {
         width: 370px;
+        height: 1825px;
     }
     #content {
         margin-top: 10%;
@@ -90,13 +91,14 @@
         border-radius: 20px;
     }
     .bgr {
-        height: 3100px;
+        height: 2410px;
     }
     .tab-boar h3 {
         font-size: 16px;
     }
     .user-boar h2 {
         font-size: 16px;
+        margin-bottom: 0px;
     }
     .user-boar p {
         font-size: 9px;
@@ -107,10 +109,19 @@
         font-size: 8px;
     }
     .use-case {
-        margin: auto;
+        margin: 6px;
         height: auto;
     }
     .img-onboarding img {
-        max-width: 100px;
+        max-width: 70px;
+    }
+    .img-onboarding {
+        margin-left: 0px;
+    }
+    .tab-boar {
+        margin: 0px;
+    }
+    .content-boar {
+        margin-top: 0px;
     }
 }
