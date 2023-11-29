@@ -47,6 +47,10 @@
         height: 30px;
         font-size: 14px;
     }
+    #nav li {
+        position: relative;
+        padding: 10px 20px;
+    }
 }
 
 /* Tablet */
@@ -139,6 +143,7 @@
     }
     #nav li a {
         color: black;
+        font-size: 17px;
     }
     #nav {
         display: none;
