@@ -81,6 +81,9 @@
         justify-content: normal;
         background: none;
     }
+    .content-bgr {
+        width: 350px;
+    }
 }
 
 /* Mobile */
