@@ -32,36 +32,54 @@ body {
 /* END */
 
 /* NAVBAR */
-.logo-nav {
-    width: 140px;
+.logonav {
+    width: 150px;
 }
-.nav-item {
-    margin: 0 50px;
-}
-.navbar-nav {
+#header {
+    display: flex;
     align-items: center;
-}
-
-.navbar {
-    z-index: 2;
+    justify-content: space-around;
+    height: 64px;
+    z-index: 1;
     background: linear-gradient(rgba(135, 38, 183, 0), rgba(234, 191, 255, 0.534));
     backdrop-filter: blur(5px);
-    position: fixed !important;
-    top: 0%;
-    left: 0%;
-    right: 0%;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    right: 0;
 }
-
-.nav-item a {
-    color: white;
-    font-size:18px;
-    font-weight: 600;
+#header .menu {
+    float: right;
+    padding: 0 21px;
+    color: #fff;
+    font-size: 20px;
+    line-height: 46px;
+    display: none;
 }
-
-#navbarNav {
-    justify-content: center;
+#header .menu:hover {
+    cursor: pointer;
+    background-color: #ccc;
 }
-.down {
+#nav {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+#nav li {
+    position: relative;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+#nav > li {
+    display: inline-block;
+}
+#nav li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 24px;
+}
+.btn {
     background-color: #FDA656 !important;
     color: #fff !important;
 }
