@@ -34,6 +34,7 @@ tabs.forEach((tab, index) => {
 var header = document.getElementById('header');
 var mobileMenu = document.getElementById('menuMobile');
 var nav = document.getElementById('nav');
+var overLay = document.getElementById('overlay');
 
   
   mobileMenu.onclick = function() {
@@ -44,6 +45,7 @@ var nav = document.getElementById('nav');
       nav.style.display = 'flex'
       nav.style.flexDirection = 'column'
       mobileMenu.style.display = 'none'
+      overLay.style.display = 'block'
     } else {
       nav.style.display = 'none'
       header.style.height = '64px'
@@ -56,16 +58,22 @@ var nav = document.getElementById('nav');
 
   for (var i = 0; i < menuItems.length; i++) {
     var menuItem = menuItems[i];
-    var isOpen = header.clientHeight === 182 ;
+    var isMobile = window.innerWidth <= 768;
 
-    menuItem.onclick = function(e) { 
-      if(isOpen) {
-        
-      } else{
+     
+    var isCloseMenu = function() { 
+      if(isMobile) {
         header.style.background = 'none'
         header.style.height = '64px'
         nav.style.display = 'none'
         mobileMenu.style.display = 'block'
+        overLay.style.display = 'none'
       }
     }
+    menuItem.onclick = isCloseMenu;
   }
+
+
+  // Tự động đóng menu khi bấm vào khoảng không
+
+  overLay.onclick = isCloseMenu;
