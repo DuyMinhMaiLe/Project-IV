@@ -56,7 +56,31 @@
 /* Tablet */
 
 @media (min-width: 740px) and (max-width: 1023px) {
-    
+    .logonav {
+        display: none;
+    }
+    .btn {
+        display: none;
+    }
+    #nav li {
+        display: block;
+        padding-left: 10px;
+    }
+    #nav li a {
+        color: black;
+        font-size: 17px;
+    }
+    #nav {
+        display: none;
+    }
+    #header .menu {
+        display: block;
+        float: left;
+    }
+    #header {
+        justify-content: normal;
+        background: none;
+    }
 }
 
 /* Mobile */
