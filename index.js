@@ -56,11 +56,16 @@ var nav = document.getElementById('nav');
 
   for (var i = 0; i < menuItems.length; i++) {
     var menuItem = menuItems[i];
+    var isOpen = header.clientHeight === 182 ;
 
-    menuItem.onclick = function() {
-      header.style.background = 'none'
-      header.style.height = '64px'
-      nav.style.display = 'none'
-      mobileMenu.style.display = 'block'
+    menuItem.onclick = function(e) { 
+      if(isOpen) {
+        
+      } else{
+        header.style.background = 'none'
+        header.style.height = '64px'
+        nav.style.display = 'none'
+        mobileMenu.style.display = 'block'
+      }
     }
   }
