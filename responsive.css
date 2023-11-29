@@ -135,6 +135,10 @@
     }
     #nav li {
         display: block;
+        padding-left: 10px;
+    }
+    #nav li a {
+        color: black;
     }
     #nav {
         display: none;
@@ -145,5 +149,6 @@
     }
     #header {
         justify-content: normal;
+        background: none;
     }
 }

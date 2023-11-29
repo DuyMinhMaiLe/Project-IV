@@ -27,3 +27,40 @@ tabs.forEach((tab, index) => {
     pane.classList.add("new");
   };
 });
+
+
+// Đóng mở menu
+
+var header = document.getElementById('header');
+var mobileMenu = document.getElementById('menuMobile');
+var nav = document.getElementById('nav');
+
+  
+  mobileMenu.onclick = function() {
+    var isClosed = header.clientHeight === 64;
+    if (isClosed) {
+      header.style.background = '#E4F4FF'
+      header.style.height = 'auto'
+      nav.style.display = 'flex'
+      nav.style.flexDirection = 'column'
+      mobileMenu.style.display = 'none'
+    } else {
+      nav.style.display = 'none'
+      header.style.height = '64px'
+    }
+  } 
+  
+  // Tự động đóng mở khi chọn menu
+
+  var menuItems = document.querySelectorAll('#nav li a[href*="#"]');
+
+  for (var i = 0; i < menuItems.length; i++) {
+    var menuItem = menuItems[i];
+
+    menuItem.onclick = function() {
+      header.style.background = 'none'
+      header.style.height = '64px'
+      nav.style.display = 'none'
+      mobileMenu.style.display = 'block'
+    }
+  }
