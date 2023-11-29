@@ -40,7 +40,7 @@ body {
     align-items: center;
     justify-content: space-around;
     height: 64px;
-    z-index: 1;
+    z-index: 2;
     background: linear-gradient(rgba(135, 38, 183, 0), rgba(234, 191, 255, 0.534));
     backdrop-filter: blur(5px);
     position: fixed;
