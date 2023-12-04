@@ -41,7 +41,7 @@ body {
     justify-content: space-around;
     height: 74px;
     z-index: 2;
-    background: linear-gradient(rgba(135, 38, 183, 0), rgba(234, 191, 255, 0.534));
+    background: linear-gradient(rgba(219, 148, 172, 0.54), rgba(47, 160, 178, 0.46));
     backdrop-filter: blur(5px);
     position: fixed;
     overflow: hidden;
@@ -372,7 +372,7 @@ body {
 
 /* BACKGROUND */
 .bgr {
-    background: linear-gradient(rgba(23, 32, 56, 1), rgba(162, 62, 140, 1));
+    background: linear-gradient(rgba(47, 160, 178, 1), rgba(219, 148, 172, 1));
     z-index: -1;
     width: 100%;
     height: 4300px;
