@@ -59,7 +59,7 @@
     .logonav {
         display: none;
     }
-    .btn {
+    .btn  {
         display: none;
     }
     #nav li {
@@ -86,6 +86,17 @@
 /* Mobile */
 
 @media (max-width: 800px) {
+    .img-character {
+        width: 100px;
+        height: 100px;
+    }
+    .plot-about {
+        width: 281px !important;
+        margin-top: 20px;
+    }
+    .row {
+        display: block;
+    }
     .logonav {
         display: none;
     }
@@ -97,9 +108,6 @@
     }
     .p-3 h3 {
         font-size: 16px;
-    }
-    .imgCol {
-        display: none;
     }
     .col p {
         font-size: 10px;
@@ -177,8 +185,7 @@
         float: left;
     }
     #header {
-        height: 64px;
+        height: 45px;
         justify-content: normal;
-        background: none;
     }
 }

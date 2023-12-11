@@ -5,9 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap" rel="stylesheet"> -->
     <link rel="stylesheet" href="responsive.css">
     <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha384-ezYPUO7P+2L1KtAq4HsWq40lYP5drzZRRc4BE5Lqzh5p30qgCjz1k0LDMCK86HXP" crossorigin="anonymous">
     <link rel="shortcut icon" type="image/png" href="IMG/logoWeb.png"/>
     <title>Animal Lab</title>
 </head>
@@ -23,7 +26,7 @@
           <li><a href="#gameplay">Cách chơi</a></li>
           <li><a href="#boarding">Nhân vật</a></li>
         </ul>
-        <button class="btn">DOWNLOAD</button>
+        <button class="btn">DOWNLOAD <i class="fa-solid fa-down-to-bracket"></i> </button>
         <div class="menu" id="menuMobile">
           <i class="fa-solid fa-bars"></i>
         </div>
@@ -31,8 +34,7 @@
       
 
     <!-- INTRODUC -->
-
-    <div class="container px-4 text-center introduc">
+    <div class=" px-4 text-center introduc">
       <div class="row gx-5" style="margin-left: 10px;">
         <div class="col">
          <div class="p-3">
@@ -47,164 +49,198 @@
         </div>
         <div class="col imgCol">
           <div class="p-3">
-            <img src="IMG/img-demo.png" class="img-fluid" alt="...">
+            <img src="IMG/imgHead.png" class="img-fluid" alt="...">
           </div>
         </div>
       </div>
     </div>
 
-    <!-- CONTENT -->
+    <!-- Content -->
 
-    <div id="content">
-      <div class="content-bgr">
-        <!-- PLOT -->
+  <div id="content">
+    <div class="bgr-content">
 
-        <div class="container px-4 text-center mt-6" id="plot">
-          <div class="row gx-5 plot">
-            <div class="col">
-             <div class="p-3 content-plot">
-              <h3>CỐT TRUYỆN</h3>
-              <p>Ở một phòng thí nghiệm nơi có 1 tiến sĩ độc ác chuyên làm các thí nghiệm vô nhân tính lên động vật nhằm tạo ra các sinh vật biến dạng nguy hiểm. Không chấp nhận số phận bị ngược đãi bởi phòng thí nghiệm, chú mèo và chú chó đã lên kế hoạch đồng hành cùng nhau trốn thoát. Người chơi sẽ làm nhiệm vụ giải mã những câu hỏi hóc búa để giúp 2 bạn thành công thoát khỏi phòng thí nghiệm</p>
-             </div>
-            </div>
-            <div class="col">
-              <div class="p-3">
-                <img src="IMG/img-demo.png" class="img-fluid" alt="">
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <!-- END -->
-
-        <!-- GAME-PLAY -->
-
-        <div class="container px-4 text-center mt-6" id="gameplay">
-          <div class="row gx-5 gameplay">
-            <div class="col">
-             <div class="p-3 chap1">
-              <h3>CÁCH CHƠI</h3>
-              <img src="IMG/img1.png" class="img-fluid imgGame" alt="...">
-             </div>
-            </div>
-            <div class="col">
-              <div class="p-3 chap2">
-                <p>Nemo enim ipsam voluptatem quia  voluptas sit aspernatur aut odit aut  fugit, sed quia consequuntur ma  Nemo enim ipsam voluptatem quia  voluptas sit aspernatur aut odit aut  fugit, sed quia consequuntur ma</p>
-                <div class="prop">
-                  <img src="IMG/chickenconceptart.png" class="img-fluid" alt="...">
-                  <img src="IMG/chickenconceptart.png" class="img-fluid" alt="...">
-                  <img src="IMG/chickenconceptart.png" class="img-fluid" alt="...">
-                  <img src="IMG/chickenconceptart.png" class="img-fluid" alt="...">
-                  <img src="IMG/chickenconceptart.png" class="img-fluid" alt="...">
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="container px-4 text-center mt-6" style="display: flex; align-items: center;">
-          <div class="row gx-5 conti">
-            <div class="col">
-             <div class="p-3 chap3">
-              <p>Nemo enim ipsam voluptatem quia  voluptas sit aspernatur aut odit aut  fugit, sed quia consequuntur ma  Nemo enim ipsam voluptatem quia  voluptas sit aspernatur aut odit aut  fugit, sed quia consequuntur ma 
-               Nemo enim ipsam voluptatem quia  voluptas sit aspernatur aut odit au</p>
-             </div>
-            </div>
-            <div class="col">
-              <div class="p-3 chap4">
-                <img src="IMG/img2.png" class="img-fluid" style="border-radius: 20px;"  alt="...">
-              </div>
-            </div>
-          </div>
-        </div>
-        
-        <img src="IMG/img3.png" class="img-fluid map mt-6" alt="...">
-        <!-- END -->
-
-        <!-- CHARACTER -->
-
-        <div id="boarding">
-                    
-          <div class="tab-boar">
-              <div>
-                  <h3>NHÂN VẬT</h3>
-              </div>
-              <div style="display: flex; position: relative;">
-                  <div class="container-boarding active ">
-                      <i class="fa-sharp fa-solid fa-arrow-left"></i>
-                  </div>
-                  
-                  <div class="container-boarding">
-                      <i class="fa-sharp fa-solid fa-arrow-right"></i>
-                  </div>
-                  <div class="trigger" style="left: 0px; width: 62px; height: 45px;"></div>
-              </div>
-          </div>
-      <div class="content-boar">
-          <div class="container-character new">
-              <div class="use-case uc1 ">
-                  <div class="nhanvat">
-                      <div class="user-boar">
-                          <h2>TÊN</h2>
-                          <p>Đặc điểm nhận diện: <br> -  <br> - <br> - <br> - <br> - </p>
-                          <button>Xem chi tiết</button>
-                      </div>
-                      <div class="img-onboarding" style="z-index: 1;"><img src="IMG/img-demo.png" alt=""></div>
-                  </div>
-              </div>
-
-              <div class="use-case uc1 ">
-                  <div class="nhanvat">
-                      <div class="user-boar">
-                          <h2>TÊN</h2>
-                          <p>Đặc điểm nhận diện: <br> - <br> - <br> - <br> - <br> - </p>
-                          <button>Xem chi tiết</button>
-                      </div>
-                      <div class="img-onboarding" style="z-index: 1;"><img src="IMG/chickenconceptart.png" alt=""></div>
-                  </div>
-              </div>
-          </div>
-
-          <div class="container-character">
-              <div class="use-case uc1 ">
-                  <div class="nhanvat">
-                      <div class="user-boar">
-                          <h2>TÊN</h2>
-                          <p>Đặc điểm nhận diện: <br> - <br> - <br> - <br> - <br> - </p>
-                          <button>Xem chi tiết</button>
-                      </div>
-                      <div class="img-onboarding" style="z-index: 1;"><img src="IMG/frogconceptart.png" alt=""></div>
-                  </div>
-              </div>
-
-              <div class="use-case uc1 ">
-                  <div class="nhanvat">
-                      <div class="user-boar">
-                          <h2>TÊN</h2>
-                          <p>Đặc điểm nhận diện: <br> - <br> - <br> - <br> - <br> - </p>
-                          <button>Xem chi tiết</button>
-                      </div>
-                      <div class="img-onboarding" style="z-index: 1;"><img src="IMG/thoconcept.png" alt=""></div>
-                  </div>
-              </div>
-          </div>
-          
+    <!-- Plot -->
+    <div class="row g-0 text-center" style="display: flex; justify-content: center; margin-top: 10%;">
+      <div class="col-6 col-md-4">
+        <img src="./IMG/image_9.png" class="img-fluid img-plot" alt="">
       </div>
+      <div class="col-sm-6 col-md-8 plot-about">
+        <h3>Cốt truyện</h3>
+        <p>Ở một phòng thí nghiệm nơi có 1 tiến sĩ độc ác chuyên làm các thí nghiệm vô nhân tính lên động vật nhằm tạo ra các sinh vật biến dạng nguy hiểm. Không chấp nhận số phận bị ngược đãi bởi phòng thí nghiệm, chú mèo và chú chó đã lên kế hoạch đồng hành cùng nhau trốn thoát. 
+          <br> <br>
+          Người chơi sẽ làm nhiệm vụ giải mã những câu hỏi hóc búa để giúp 2 bạn thành công thoát khỏi phòng thí nghiệm.</p>
       </div>
-
-        <!-- END -->
-
-      </div>
-      <!-- FOOTER -->
-        <div id="footer">
-          <img src="IMG/footer2.png" class="img-fluid" alt="">
-        </div>
-      <!-- END -->
     </div>
-    
-    <!-- BACKGROUND -->
-    <div class="bgr"></div>
-    <div id="overlay"></div>
+
+    <!-- Character -->
+  <div>
+    <div class="container px-4 text-center" style="margin-top: 10%;">
+      <!-- <h3>Nhân vật</h3> -->
+      <div class="row gx-5">
+        <div class="col" style="padding-right: 42px;">
+         <div class="p-3">
+          <div style="display: flex; align-items: center;">
+            <div class="img-character">
+
+            </div>
+
+            <div class="about-character">
+              <ul>
+                <h3>Tiến sĩ:</h3>
+                <p><i class="fa-solid fa-circle"></i>Dược sĩ</p>
+                <p><i class="fa-solid fa-circle"></i>67 tuổi</p>
+                <p><i class="fa-solid fa-circle"></i>1m67</p>
+                <p><i class="fa-solid fa-circle"></i>1m67</p>
+                <p><i class="fa-solid fa-circle"></i>1m67</p>
+              </ul>
+            </div>
+          </div>
+         </div>
+        </div>
+        <div class="col" style="padding-left: 50px;">
+          <div class="p-3">
+           <div style="display: flex; align-items: center;">
+             <div class="img-character">
+ 
+             </div>
+ 
+             <div class="about-character">
+               <ul>
+                 <h3>Mèo:</h3>
+                 <p><i class="fa-solid fa-circle"></i>Đã thí nghiệm</p>
+                 <p><i class="fa-solid fa-circle"></i>Mã: 01011</p>
+                 <p><i class="fa-solid fa-circle"></i>Lông cam</p>
+                 <p><i class="fa-solid fa-circle"></i>3.5kg</p>
+                 <p><i class="fa-solid fa-circle"></i>50cm</p>
+               </ul>
+             </div>
+           </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="container px-4 text-center" style="margin-top: 10%;">
+      <!-- <h3>Nhân vật</h3> -->
+      <div class="row gx-5">
+        <div class="col" style="padding-right: 42px;">
+         <div class="p-3">
+          <div style="display: flex; align-items: center;">
+            <div class="img-character">
+
+            </div>
+
+            <div class="about-character">
+              <ul>
+                <h3>Chó:</h3>
+                <p><i class="fa-solid fa-circle"></i>Đã thí nghiệm</p>
+                <p><i class="fa-solid fa-circle"></i>Mã: 00504</p>
+                <p><i class="fa-solid fa-circle"></i>Lông cam</p>
+                <p><i class="fa-solid fa-circle"></i>5kg</p>
+                <p><i class="fa-solid fa-circle"></i>30cm</p>
+              </ul>
+            </div>
+          </div>
+         </div>
+        </div>
+        <div class="col" style="padding-left: 50px;">
+          <div class="p-3">
+           <div style="display: flex; align-items: center;">
+             <div class="img-character">
+ 
+             </div>
+ 
+             <div class="about-character">
+               <ul>
+                 <h3>Thỏ:</h3>
+                 <p><i class="fa-solid fa-circle"></i>Đã thí nghiệm</p>
+                 <p><i class="fa-solid fa-circle"></i>Mã: 00611</p>
+                 <p><i class="fa-solid fa-circle"></i>Lông hồng</p>
+                 <p><i class="fa-solid fa-circle"></i>3kg</p>
+                 <p><i class="fa-solid fa-circle"></i>50cm</p>
+               </ul>
+             </div>
+           </div>
+          </div>
+      </div>
+    </div>
+  </div>
+
+  <div>
+    <div class="container px-4 text-center" style="margin-top: 10%;">
+      <!-- <h3>Nhân vật</h3> -->
+      <div class="row gx-5">
+        <div class="col" style="padding-right: 42px;">
+         <div class="p-3">
+          <div style="display: flex; align-items: center;">
+            <div class="img-character">
+
+            </div>
+
+            <div class="about-character">
+              <ul>
+                <h3>Vịt:</h3>
+                <p><i class="fa-solid fa-circle"></i>Đã thí nghiệm</p>
+                <p><i class="fa-solid fa-circle"></i>Mã: 01910</p>
+                <p><i class="fa-solid fa-circle"></i>Lông vàng</p>
+                <p><i class="fa-solid fa-circle"></i>3kg</p>
+                <p><i class="fa-solid fa-circle"></i>50cm</p>
+              </ul>
+            </div>
+          </div>
+         </div>
+        </div>
+        <div class="col" style="padding-left: 50px;">
+          <div class="p-3">
+           <div style="display: flex; align-items: center;">
+             <div class="img-character">
+ 
+             </div>
+ 
+             <div class="about-character">
+               <ul>
+                 <h3>Ếch:</h3>
+                 <p><i class="fa-solid fa-circle"></i>Đã thí nghiệm</p>
+                 <p><i class="fa-solid fa-circle"></i>Mã: 01104</p>
+                 <p><i class="fa-solid fa-circle"></i>Da xanh</p>
+                 <p><i class="fa-solid fa-circle"></i>3.5kg</p>
+                 <p><i class="fa-solid fa-circle"></i>50cm</p>
+               </ul>
+             </div>
+           </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+</div>
+<!-- GamePlay -->
+
+<div id="gamePlay">
+  <h3>Nhân vật</h3>
+  <div class="img-gameplay">
+    <div>
+      <img src="./IMG/img1.png" alt="">
+      <img src="./IMG/img1.png" style="margin-right: 0;" alt="">
+    </div>
+    <p>Người chơi điều khiển nhân vật Mèo để giải mật mã để giải cứu các bạn động vật. Trên đường <br> đi có nhiều vật phẩm bị đánh rơi, hãy nhặt chúng vào túi và sử dụng cho mục đích ban đầu.</p>
+  </div>
+</div>
+
+<!-- Intro -->
+
+<div id="intro">
+  <h3>Intro</h3>
+  <img src="./IMG/img1.png" class="img-fluid" alt="">
+</div>
+
+<!-- BACKGROUND -->
+<div class="bgr"></div>
+<div id="overlay"></div>
+</div>
 </div>
 <script src="index.js"></script>    
 </body>
