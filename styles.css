@@ -115,6 +115,11 @@ body {
 /* END */
 
 /* Plot */
+#plot {
+    display: flex; 
+    justify-content: center;
+    margin-top: 5%;
+}
 
 #content {
     display: flex;
