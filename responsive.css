@@ -118,6 +118,10 @@
     }
     .bgr {
         height: 2410px;
+        position: fixed;
+    }
+    .main {
+        position: absolute;
     }
     .plot {
         display: block;
