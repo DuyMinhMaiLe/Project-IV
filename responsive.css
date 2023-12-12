@@ -40,6 +40,9 @@
     #character {
         margin-top: 5%;
     }
+    #footer h2 {
+        font-size: 48px;
+    }
 }
 
 /* Mobile */
@@ -47,7 +50,6 @@
 @media (max-width: 800px) {
     #footer h2 {
         font-size: 30px;
-        margin-top: 15%;
     }
     .imgPlot {
         width: 65%;
