@@ -58,7 +58,7 @@ var overLay = document.getElementById('overlay');
 
   for (var i = 0; i < menuItems.length; i++) {
     var menuItem = menuItems[i];
-    var isMobile = window.innerWidth <= 800;
+    var isMobile = window.innerWidth <= 1023;
 
      
     var isCloseMenu = function() { 

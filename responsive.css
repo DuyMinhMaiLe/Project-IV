@@ -4,55 +4,6 @@
    
 }
 
-/* Tablet & Mobile */
-@media (max-width: 1023px) {
-    .p-3 h2 {
-        font-size: 45px;
-    }
-    .nav-item {
-        margin: 0 30px;
-    }
-    .nav-item a {
-        font-size: 18px;
-    }
-    .bgr {
-        height: 3884px;
-    }
-    .content-bgr {
-        width: 900px;
-        height: 2600px;
-    }
-    .chap1 img {
-        max-width: 100%;
-    }
-    .chap4 img {
-        max-width: 100%;
-    }
-    .use-case {
-        margin: auto;
-        height: auto;
-        margin: 50px;
-    }
-    .img-onboarding img {
-        max-width: 200px;
-    }
-    .nhanvat {
-        align-items: center;
-    }
-    .user-boar p {
-        font-size: 14px;
-    }
-    .user-boar button {
-        width: 110px;
-        height: 30px;
-        font-size: 14px;
-    }
-    #nav li {
-        position: relative;
-        padding: 10px 20px;
-    }
-}
-
 /* Tablet */
 
 @media (min-width: 740px) and (max-width: 1023px) {
@@ -79,23 +30,36 @@
     }
     #header {
         justify-content: normal;
-        background: none;
+    }
+    .plot-about {
+        margin-top: 5%;
+    }
+    .imgPlot {
+        width: 68%;
+    }
+    #character {
+        margin-top: 5%;
     }
 }
 
 /* Mobile */
 
 @media (max-width: 800px) {
+    .imgCol {
+        width: 60%;
+    }
+    .introduc-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     .img-character {
         width: 100px;
         height: 100px;
     }
     .plot-about {
-        width: 281px !important;
+        width: 374px !important;
         margin-top: 20px;
-    }
-    .row {
-        display: block;
     }
     .logonav {
         display: none;
@@ -104,67 +68,21 @@
         display: none;
     }
     .p-3 h2 {
-        font-size: 30px;
+        font-size: 40px;
     }
     .p-3 h3 {
         font-size: 16px;
     }
     .col p {
-        font-size: 10px;
+        font-size: 18px;
         line-height: 120%;
         font-weight: 500;
-    }
-    .content-bgr {
-        width: 370px;
-        height: 1965px;
     }
     #content {
         margin-top: 10%;
     }
-    .conti {
-        display: flex;
-        flex-direction: column;
-    }
-    .mt-6 {
-        margin-top: 20px;
-    }
-    .map {
-        width: 350px;
-        border-radius: 20px;
-    }
     .bgr {
         height: 2410px;
-    }
-    .tab-boar h3 {
-        font-size: 16px;
-    }
-    .user-boar h2 {
-        font-size: 16px;
-        margin-bottom: 0px;
-    }
-    .user-boar p {
-        font-size: 9px;
-    }
-    .user-boar button {
-        width: 60px;
-        height: 25px;
-        font-size: 8px;
-    }
-    .use-case {
-        margin: 6px;
-        height: auto;
-    }
-    .img-onboarding img {
-        max-width: 70px;
-    }
-    .img-onboarding {
-        margin-left: 0px;
-    }
-    .tab-boar {
-        margin: 0px;
-    }
-    .content-boar {
-        margin-top: 0px;
     }
     .plot {
         display: block;
@@ -185,6 +103,7 @@
         float: left;
     }
     #header {
+        position: fixed;
         height: 45px;
         justify-content: normal;
     }
