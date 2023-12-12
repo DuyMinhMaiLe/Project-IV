@@ -150,7 +150,7 @@
     }
     #header {
         position: fixed;
-        height: 45px;
+        height: 64px;
         justify-content: normal;
     }
 }

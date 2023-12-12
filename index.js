@@ -38,7 +38,7 @@ var overLay = document.getElementById('overlay');
 
   
   mobileMenu.onclick = function() {
-    var isClosed = header.clientHeight === 45;
+    var isClosed = header.clientHeight === 64;
     if (isClosed) {
       header.style.background = '#FFE7CF'
       header.style.height = 'auto'
@@ -48,7 +48,7 @@ var overLay = document.getElementById('overlay');
       overLay.style.display = 'block'
     } else {
       nav.style.display = 'none'
-      header.style.height = '45px'
+      header.style.height = '64px'
     }
   } 
   
@@ -63,7 +63,7 @@ var overLay = document.getElementById('overlay');
      
     var isCloseMenu = function() { 
       if(isMobile) {
-        header.style.height = '45px'
+        header.style.height = '64px'
         nav.style.display = 'none'
         mobileMenu.style.display = 'block'
         overLay.style.display = 'none'
