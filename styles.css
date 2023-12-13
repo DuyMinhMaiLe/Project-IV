@@ -1,5 +1,3 @@
-
-
 /* Reset CSS */
 * {
     padding: 0;
@@ -209,7 +207,7 @@ body {
 
 /* Intro */
 
-#intro img {
+#intro video {
     width: 90%;
     border-radius: 40px;
 }
