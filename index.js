@@ -79,21 +79,3 @@ var overLay = document.getElementById('overlay');
 
   // Tự động bắt đầu video
 
-  var video = document.getElementById('autoplay-video');
-  var videoOffset = video.offsetTop;
-
-  function isVideoInView() {
-    var windowTop = window.scrollY;
-    var windowBottom = windowTop + window.innerHeight;
-
-    return (videoOffset >= windowTop && videoOffset <= windowBottom);
-}
-
-function handleScroll() {
-    if (isVideoInView()) {
-        video.play();
-        window.removeEventListener('scroll', handleScroll);
-    }
-}
-
-window.addEventListener('scroll', handleScroll);

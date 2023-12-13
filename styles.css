@@ -181,7 +181,7 @@ body {
     flex-direction: column;
     background-color: #F9CDA4;
     box-shadow:8px 8px 0px rgba(212.9249945282936, 159.6809595823288, 110.72098955512047, 1);
-    border-radius: 12px;
+    border-radius: 20px;
     padding: 20px;
     margin-top: 90px;
 }
@@ -194,7 +194,7 @@ body {
 }
 
 .img-gameplay img {
-    max-width: 500px;
+    max-width: 650px;
     margin-top: 3%;
     margin-bottom: 3%;
     border-radius: 20px;
