@@ -168,6 +168,7 @@ body {
 }
 .content-character i {
     font-size: 10px;
+    padding-right: 5px;
 }
 .content-character {
     margin-left: 0px;
