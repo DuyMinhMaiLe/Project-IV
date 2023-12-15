@@ -6,7 +6,7 @@
 
 /* Tablet */
 
-@media (min-width: 740px) and (max-width: 1023px) {
+@media (min-width: 740px) and (max-width: 1024px) {
     .logonav {
         display: none;
     }
@@ -107,6 +107,7 @@
     }
     .content-character p {
         margin-bottom: 2px;
+        font-size: 18px;
     }
     .about-character {
         margin-left: 6px;
@@ -139,7 +140,7 @@
     }
     #nav li a {
         color: black;
-        font-size: 17px;
+        font-size: 22px;
     }
     #nav {
         display: none;
