@@ -172,6 +172,7 @@ body {
 }
 .content-character {
     margin-left: 0px;
+    white-space: nowrap;
 }
 
 /* End */
